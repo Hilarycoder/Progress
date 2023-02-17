@@ -1,0 +1,77 @@
+body {
+  margin: auto;
+  background-color: darkcyan
+}
+
+#victory{
+  display: none
+}
+#game,#about,#projects, #contact, #learning{
+  display: grid;
+  place-items:center;
+  align-items: center;
+}
+p{
+  color: blue;
+  text-align: center
+}
+h1{
+  text-align: center;
+  color: lime
+}
+img{
+            -moz-animation-duration: 3s;
+            -webkit-animation-duration: 1s;
+            -moz-animation-name: slidein;
+            -webkit-animation-name: slidein;
+         }
+         @-moz-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+         @-webkit-keyframes slidein {
+            from {
+               margin-left:100%;
+               width:300%
+            }
+            to {
+               margin-left:0%;
+               width:100%;
+            }
+         }
+#hil{
+  border-radius: 50%;
+  border-style: ridge;
+  border: 3px outset red
+}
+#about{
+  margin-top: 30px;
+  background-color: burlywood
+}
+h2{
+  text-align: center;
+  color: red
+}
+a{
+  text-decoration: none;
+  background-color: darkcyan;
+  border:double 3px red;
+  margin: 10px
+}
+#contact{
+  background: url(soft.jpeg) no-repeat;
+  background-size: 100%
+}
+h4{
+  text-align: center
+}
+#game{
+  background: url(Dom.jpeg) no-repeat;
+  background-size: 100%;
+}
